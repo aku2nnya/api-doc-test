@@ -20,3 +20,19 @@ paths:
                 type: array
                 items: 
                   type: string
+      x-code-samples:
+        - lang: 'HTTP'
+          source: |
+            Example:
+                Headers:
+                    “email” : “mary@lamb.com“
+                    “password” : “Pass@1234”
+
+            The above API authenticates user with email `mary@lamb.comand passwordPass@1234`.
+        - lang: GraphQL
+          source: |
+            {
+                deviceTypes{
+                    name
+                }
+            }

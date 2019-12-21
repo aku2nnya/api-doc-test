@@ -30,7 +30,17 @@
               }
             }
           }
-        }
+        },
+        "x-code-samples": [
+          {
+            "lang": "HTTP",
+            "source": "Example:\n    Headers:\n        “email” : “mary@lamb.com“\n        “password” : “Pass@1234”\n\nThe above API authenticates user with email `mary@lamb.comand passwordPass@1234`.\n"
+          },
+          {
+            "lang": "GraphQL",
+            "source": "{\n    deviceTypes{\n        name\n    }\n}\n"
+          }
+        ]
       }
     }
   }
