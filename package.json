@@ -1,0 +1,23 @@
+{
+  "name": "redoc-test",
+  "version": "1.0.0",
+  "description": "ReDoc API documentation tool test",
+  "main": "index.js",
+  "scripts": {
+    "build": "yaml2json spec.yaml --pretty --save"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aku2nnya/redoc-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aku2nnya/redoc-test/issues"
+  },
+  "homepage": "https://github.com/aku2nnya/redoc-test#readme",
+  "devDependencies": {
+    "yamljs": "^0.3.0"
+  }
+}
