@@ -1,2 +1,2 @@
-# redoc-test
-ReDoc API documentation tool test
+# api-doc-tool-test
+API documentation tool tests
