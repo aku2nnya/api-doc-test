@@ -5,12 +5,6 @@
     "description": "Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.",
     "version": "0.1.9"
   },
-  "servers": [
-    {
-      "url": "http://api.example.com/v1",
-      "description": "Optional server description, e.g. Main (production) server"
-    }
-  ],
   "paths": {
     "/users": {
       "get": {
@@ -34,11 +28,11 @@
         "x-code-samples": [
           {
             "lang": "HTTP",
-            "source": "Example:\n    Headers:\n        “email” : “mary@lamb.com“\n        “password” : “Pass@1234”\n\nThe above API authenticates user with email `mary@lamb.comand passwordPass@1234`.\n"
+            "source": "endpoint: 'http://www.sampleapi.com/'\nExample:\n    Headers:\n        “email” : “mary@lamb.com“\n        “password” : “Pass@1234”\n\nThe above API authenticates user with email `mary@lamb.comand passwordPass@1234`.\n"
           },
           {
             "lang": "GraphQL",
-            "source": "{\n    deviceTypes{\n        name\n    }\n}\n"
+            "source": "{\n    users{\n        email\n    }\n}\n"
           }
         ]
       }
